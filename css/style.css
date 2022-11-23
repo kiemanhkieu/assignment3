@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gird-img {
+    display: flex;
+    justify-content: center;
+}
+
+#banner {
+    position: relative;
+}
+
+#conten-banner {
+    color: red;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* NAVBAR*/
+#nav-bar {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+    z-index: 1;
+}
+
+.navbar-item {
+    width: fit-content;
+    padding: 0 20px;
+    line-height: 40px;
+}
+
+.container-navbar a {
+    text-decoration: none;
+    width: fit-content;
+    color: blue;
+    display: block;
+}
+
+.avatar img {
+    border: 5px solid #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.navbar {
+    border-left: 2px solid grey;
+    width: 100px;
+    padding: 10px;
+}
+
+/*THONG TIN CA NHAN*/
+#about {
+    border-top: 1px solid grey;
+    width: 100%;
+    margin-top: 0;
+}
+
+.container-about {
+    display: grid;
+    grid-template-columns: 52% 48%;
+    grid-template-rows: 300px;
+
+}
+
+#target {
+    background-color: beige;
+}
+
+#personal-info {
+    background-color: #adb5bd;
+    height: 100%;
+
+}
+
+.section-title {
+    margin-top: 30px;
+
+}
+
+.section-title1 {
+    margin-top: 30px;
+}
+
+.content-p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.mt-40infor {
+    margin-top: 20px;
+    list-style: none;
+    line-height: 1.5;
+}
+
+#icon-info {
+    color: #199cdb;
+    margin-top: 20PX;
+}
+
+/* THONG TIN NGHE NGHIEP*/
+
+.job-1,
+.job-2,
+.job-3,
+.job-4,
+.job-5,
+.job-6 {
+    border: 1px solid black;
+    height: auto;
+}
+
+.job1-flex {
+    display: flex;
+    background-color: #d6c08d;
+    height: 150px;
+}
+
+.job-text {
+    width: 250px;
+    text-transform: inherit;
+    margin-top: 60px;
+}
+
+.ic-toolbox,
+.ic-pencil,
+.ic-toolbox,
+.ic-telescope,
+.ic-mic,
+.ic-tools-2 {
+    width: 100px;
+    font-size: 60px;
+    color: grey;
+    margin-top: 50px;
+}
+
+.content-kn {
+    padding-left: 50px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+#border-ht {
+    position: absolute;
+    border: 1px solid royalblue;
+    background-color: royalblue;
+    color: white;
+    font-style: italic;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: -35px;
+}
+
+.content-job {
+    margin-top: 15px;
+}
+
+.circle {
+    position: absolute;
+    background: royalblue;
+    border: 5px solid royalblue;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(65, 105, 225, 0.271);
+    width: 5px;
+    height: 5px;
+    margin-left: -20px;
+    margin-top: 6px;
+}
+
+/* SO THICH  */
+.container-icon {
+    color: royalblue;
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.ic-megaphone,
+.ic-basket,
+.ic-strategy,
+.ic-hotairballoon {
+    border: 1px solid;
+    border-radius: 50%;
+    color: royalblue;
+    margin-top: 15px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.container-text {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.container-st {
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+#conten-st {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.conten-st1,
+.conten-st2 {
+    color: gray;
+}
+
+.conten-st3,
+.conten-st4 {
+    color: gray;
+}
+
+/* NGON NGU*/
+.content-nn {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.span-ta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.span1,
+.span2,
+.span3,
+.span4 {
+    border: 1px solid royalblue;
+    background-color: royalblue;
+    width: 80px;
+}
+
+.span5 {
+    border: 1px solid grey;
+    background-color: grey;
+    width: 80px;
+}
+
+.span6 {
+    border: 1px solid grey;
+    background-color: grey;
+    width: 80px;
+}
+
+/*CHUNG CHI-GIAI THUONG*/
+
+#certificate {
+    /* border: 1px solid;*/
+    width: 100%;
+}
+
+.certificate-item {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+
+}
+
+.content-ct {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.img {
+    margin: 20px;
+}
+
+.section-title2 {
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* DU AN*/
+#project {
+    /*border: 1px solid red;*/
+    width: 100%;
+    margin-top: 20px;
+}
+
+.project1 {
+    border: 1px solid grey;
+    width: 420;
+    height: 580;
+}
+
+.project2 {
+    border: 1px solid grey;
+}
+
+.project3 {
+    border: 1px solid grey;
+}
+
+.canhan {
+    margin: 15px;
+    font-size: 22px;
+}
+
+.cv-canhan1 {
+    border-top: 1px solid grey;
+    height: 60px;
+}
+
+.box-project1 {
+    border-top: 1px solid grey;
+    display: grid;
+    height: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.yead {
+    /* border: 1px solid royalblue;*/
+
+    height: 20px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: #f7f7f7;
+    background-color: royalblue;
+    border-radius: 25px;
+}
+
+.funix {
+    /* border: 1px solid;*/
+    height: 20px;
+    margin-top: 5px;
+}
+
+.developer {
+    /*border: 1px solid;*/
+
+    height: 20px;
+    margin-top: 5px;
+}
+
+th {
+    width: 30%;
+    border: 1px solid black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+tbody {
+    border: 1px solid black;
+}
+
+/* FOOTTER*/
+#footer .container ul {
+    background-color: #f7f7f7;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#footer ul li {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 100px;
+
+}
+
+#footer p:last-child {
+    display: inline-block;
+    color: #adb5bd;
+}
+
+#footer a {
+    padding-left: 100px;
+    text-decoration: none;
+    color: #199cdb;
+}
+
+#footer a:hover {
+    color: #228be6;
+}
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+    font-size: 30px;
+}
